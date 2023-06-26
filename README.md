@@ -1,6 +1,6 @@
 # Random-Quotes
 
-This project was created to know how we can fetch the data from api and show in the frontend.
+This project was created to know how we can fetch the data from api and display in the frontend.
 
 
 Api:https://type.fit/api/quotes
