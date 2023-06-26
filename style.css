@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Poppins:wght@200&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Martian Mono', monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.heart {
+	display: flex;
+}
+
+.heart i {
+	padding: 0.5rem;
+}
+
+.container {
+	background-color: white;
+	line-height: 1.5rem;
+	color: black;
+	max-width: 30%;
+	height: auto;
+	padding: 3rem;
+	border-radius: 25px;
+}
+
+.aut {
+	padding: 1rem 0;
+	text-align: right;
+}
+
+.btn {
+	cursor: pointer;
+	padding: 0.8rem;
+	margin-left: 22rem;
+	border-radius: 12px;
+	border: none;
+}
+
+.icon {
+	cursor: pointer;
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+	body {
+		height: 80vh;
+	}
+	.container {
+		max-width: 70%;
+		height: auto;
+	}
+	.btn {
+		padding: 0.8rem;
+		margin-left: 13rem;
+	}
+}
